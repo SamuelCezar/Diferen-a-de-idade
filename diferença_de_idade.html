@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha() {
+
+        document.write("<br>");
+
+    }
+
+    function mostra(diferençaIdade) {
+
+        document.write(diferençaIdade);
+        pulaLinha();
+
+
+    }
+
+    idade1 = prompt("Qual é sua idade? ")
+    idade2 = prompt("E a idade do seu irmão? ")
+    diferença = idade1 - idade2
+
+    mostra("A diferença de idade entre voces é de " + diferença + " anos.")
+    mostra("Fim do programa.")
+</script>
